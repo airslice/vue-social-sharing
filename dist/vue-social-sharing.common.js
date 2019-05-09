@@ -62,7 +62,7 @@ var telegram = {"sharer":"https://t.me/share/url?url=@url&text=@description","ty
 var twitter = {"sharer":"https://twitter.com/intent/tweet?text=@title&url=@url&hashtags=@hashtags@twitteruser","type":"popup"};
 var viber = {"sharer":"viber://forward?text=@url @description","type":"direct"};
 var vk = {"sharer":"https://vk.com/share.php?url=@url&title=@title&description=@description&image=@media&noparse=true","type":"popup"};
-var weibo = {"sharer":"http://service.weibo.com/share/share.php?url=@url&title=@title","type":"popup"};
+var weibo = {"sharer":"http://service.weibo.com/share/share.php?url=@url&title=@title&pic=@media","type":"popup"};
 var whatsapp = {"sharer":"whatsapp://send?text=@description%0D%0A@url","type":"direct","action":"share/whatsapp/share"};
 var sms = {"sharer":"sms:?body=@url%20@description","type":"direct"};
 var BaseNetworks = {

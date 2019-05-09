@@ -65,7 +65,7 @@
   },
 
   "weibo": {
-    "sharer": "http://service.weibo.com/share/share.php?url=@url&title=@title",
+    "sharer": "http://service.weibo.com/share/share.php?url=@url&title=@title&pic=@media",
     "type": "popup"
   },
 
